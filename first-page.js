@@ -4,6 +4,7 @@ const greeting = document.querySelector(".greeting");
 const firstAnimation = document.querySelector("#first-page");
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username"
+const INVISIVLE = "invisivle"
 
 function onLoginSubmit(event) {
     event.preventDefault();
@@ -16,15 +17,16 @@ function onLoginSubmit(event) {
 function paintGreetings(username) {
     greeting.innerText = `Hello ${username}`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
-    firstAnimation.classList.add("invisivle");
+    firstAnimation.classList.add(INVISIVLE);
 }
 
 const savedUsername = localStorage.getItem(USERNAME_KEY);
 
 if (savedUsername === null) {
-    loginForm.classList.remove(HIDDEN_CLASSNAME);
+    firstAnimation.classList.remove(INVISIVLE);
     loginForm.addEventListener("submit", onLoginSubmit);
+    
 } else {
     paintGreetings (savedUsername);
-    firstAnimation.classList.add(invisivle);
+    
 }

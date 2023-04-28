@@ -18,6 +18,7 @@
     flex-wrap: wrap;
     padding: 10px;
     border-radius: 20px;
+    color: var(--beige);
 }
 
 #anchor ::-webkit-scrollbar {
@@ -36,7 +37,7 @@
     opacity: 0.9;
     margin: 2px;
     font-weight: bolder;
-    color: var(--beige);
+    
     border: 2px solid #f4eee0d7;
 }
 #anchor-zone form:hover,
@@ -49,4 +50,12 @@
     background-color: var(--1brown);
     border: none;
     color: color: var(--beige);;
+}
+.anchor-zone_section {
+    position: relative;
+}
+.ellipsis {
+    position: absolute;
+    top: 24px;
+    right: 10px;
 }

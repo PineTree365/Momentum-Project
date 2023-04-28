@@ -14,15 +14,18 @@
     <div class="" id="wholeContent">
         <div id="top">
             <div id="time">
-                <h2 class="clock move"></h2>
+                <h2 class="clock"></h2>
                 <h3 id="dDay">D-day 30 크리스마스</h3>
                 <h4 class="greeting hidden"></h4>
             </div>
             <div id="anchor">
                 <div id="anchor-zone">
-                    <a class="anchor-stlyle" href="https://nomadcoders.co/">
-                        <span>노마드코더</span>
-                    </a>
+                    <div class="anchor-zone_section">
+                        <a class="anchor-stlyle" href="https://nomadcoders.co/">
+                            <span>노마드코더</span>  
+                        </a>
+                        <button class="ellipsis hidden"><i class="fa-solid fa-ellipsis-vertical "></i></button>
+                    </div>
                     <a class="anchor-stlyle" href="https://nomadcoders.co/">노션</a>
                     <a class="anchor-stlyle" href="https://nomadcoders.co/">넷플릭스</a>
                     <a class="anchor-stlyle" href="https://nomadcoders.co/">
@@ -62,14 +65,12 @@
             </div>
         </form>
     </div>
-    <div id="first-page">
-        <form id="login-form" action="main.html" method="get">
+    <div id="first-page" class="invisivle rotateColor">
+        <form id="login-form">
             <span>What is your name?</span>
-            <input id="login-form_text" type="text" required placeholder="enter your name"></input>
-            <button id="login-form_btn">O</button>    
+            <input id="login-form_text" type="text" required placeholder="enter your name"></input>  
         </form>
         <span class="clock"></span>
-        <img src="img/main1.jpg" />
     </div>
     <script src="https://kit.fontawesome.com/347693f648.js" crossorigin="anonymous"></script>
     <script src="anchor.js"></script>

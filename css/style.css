@@ -21,10 +21,19 @@ body {
 body::-webkit-scrollbar {
     display: none;
   }
-
+@keyframes showing{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 #top,#bottom,#wholeContent,#time,#fun-click,#calender,#something,#today-pick {
     border: 1px red dashed;
+    animation: showing 2s forwards;
+
 }
 
 
