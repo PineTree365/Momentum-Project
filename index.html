@@ -5,27 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
     <title>Momentum</title>
 </head>
 <body>
-    <div id="wholeContent">
+    <div class="" id="wholeContent">
         <div id="top">
             <div id="time">
-                <h2 id="clock" class="move"></h2>
+                <h2 class="clock move"></h2>
                 <h3 id="dDay">D-day 30 크리스마스</h3>
                 <h4 class="greeting hidden"></h4>
             </div>
             <div id="anchor">
                 <div id="anchor-zone">
-                    <a href="https://nomadcoders.co/">haha</a>
-                    <a href="https://nomadcoders.co/">haha</a>
-                    <a href="https://nomadcoders.co/">haha</a>
-                    <a href="https://nomadcoders.co/">haha</a>
-                    <a href="https://nomadcoders.co/">haha</a>
-                    <a href="https://nomadcoders.co/">haha</a>
-                    <a href="https://nomadcoders.co/">haha</a>
-                    <a href="https://nomadcoders.co/">haha</a>
+                    <a class="anchor-stlyle" href="https://nomadcoders.co/">
+                        <span>노마드코더</span>
+                    </a>
+                    <a class="anchor-stlyle" href="https://nomadcoders.co/">노션</a>
+                    <a class="anchor-stlyle" href="https://nomadcoders.co/">넷플릭스</a>
+                    <a class="anchor-stlyle" href="https://nomadcoders.co/">
+                        노마드코더
+                    </a>
+                    <a class="anchor-stlyle" href="https://nomadcoders.co/">노션</a>
+                    <a class="anchor-stlyle" href="https://nomadcoders.co/">넷플릭스</a><a class="anchor-stlyle" href="https://nomadcoders.co/">
+                        노마드코더
+                    </a>
+                    <a class="anchor-stlyle" href="https://nomadcoders.co/">노션</a>
+                    <a class="anchor-stlyle" href="https://nomadcoders.co/">넷플릭스</a>
+                    <form class="anchor-zone_create">
+                        <button><i class="fa-solid fa-circle-plus fa-2x"></i></button>
+                    </form>
                 </div>
+            </div>
+            <div id="fun-click">
+            
             </div>
         </div>
         <div id="bottom">
@@ -38,16 +53,26 @@
             </div>
         </div>
     </div>
+    <div>
+        <form class="add-shortCut_form invisivle">
+            <input type="text">
+            <div>
+                <input type="text">
+                <button><i class="fa-solid fa-circle-plus"></i></button>
+            </div>
+        </form>
+    </div>
     <div id="first-page">
-        
         <form id="login-form" action="main.html" method="get">
             <span>What is your name?</span>
             <input id="login-form_text" type="text" required placeholder="enter your name"></input>
-            <button id="login-form_btn">O</button>
-            
+            <button id="login-form_btn">O</button>    
         </form>
+        <span class="clock"></span>
         <img src="img/main1.jpg" />
     </div>
+    <script src="https://kit.fontawesome.com/347693f648.js" crossorigin="anonymous"></script>
+    <script src="anchor.js"></script>
     <script src="today-pick.js"></script>
     <script src="first-page.js"></script>
     <script src="time.js"></script>

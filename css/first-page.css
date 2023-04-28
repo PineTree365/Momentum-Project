@@ -1,6 +1,6 @@
 #first-page {
     position: absolute;
-    z-index: 97;
+    z-index: 90;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -19,7 +19,6 @@
 #first-page img {
     height: 100vh;
     width: 100vw;
-    z-index: 98;
     position: absolute;
     top: 0;
 }
@@ -40,4 +39,11 @@
     animation: any 3s ease-in-out forwards;
 }
 
-
+#first-page span.clock {
+    position: absolute;
+    left: 30px;
+    bottom: 60px;
+    background-color: antiquewhite;
+    color: black;
+    z-index: 96;
+}

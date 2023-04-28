@@ -1,4 +1,5 @@
-const clock = document.querySelector("h2#clock")
+const clock = document.querySelector(".clock")
+const firstClock = document.querySelector("#first-page span.clock")
 
 function getClock() {
     const date = new Date();
@@ -6,6 +7,7 @@ function getClock() {
     const minutes = String(date.getMinutes()).padStart(2,"0");
     const seconds = String(date.getSeconds()).padStart(2,"0");
     clock.innerText = `${hours}:${minutes}:${seconds}`;
+    firstClock.innerText = `${hours}:${minutes}`;
 }
 
 getClock()

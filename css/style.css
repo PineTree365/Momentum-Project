@@ -1,11 +1,13 @@
 @import "reset.css";
+@import "variables.css";
 @import "div/clock.css";
 @import "div/anchor.css";
 @import "first-page.css";
+@import "shortcut-form.css";
 
 
 body {
-    background-color: beige;
+    background-color: var(--1brown);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -13,11 +15,23 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+    font-family: 'Gowun Dodum', sans-serif;
 }
 
 body::-webkit-scrollbar {
     display: none;
   }
+
+
+#top,#bottom,#wholeContent,#time,#fun-click,#calender,#something,#today-pick {
+    border: 1px red dashed;
+}
+
+
+
+
+
+
 
 #top {
     width: 100%;
@@ -25,7 +39,6 @@ body::-webkit-scrollbar {
     display: flex;
     align-items: center;
     overflow: hidden;
-    background-color: aquamarine;
 }
 
 #bottom {
@@ -34,13 +47,12 @@ body::-webkit-scrollbar {
     display: flex;
     align-items: center;
     overflow: hidden;
-    background-color: brown;
 }
 
 #wholeContent {
     width: 1400px;
     height: 900px;
-    background-color: blueviolet;
+    background-color: var(--1brown);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,32 +62,32 @@ body::-webkit-scrollbar {
 #time {
     width: 33%;
     height: 100%;
-    background-color: rgb(173, 108, 108);
+    background-color: var(--beige);
     border-radius: 20px;
 }
-#anchor {
-    width: 50%;
+#fun-click {
+    width: 17%;
     height: 100%;
-    background-color: rgb(252, 188, 188);
-    flex-wrap: wrap;
+    background-color: var(--beige);
     border-radius: 20px;
 }
+
 #calender {
     width: 33%;
     height: 100%;
-    background-color: rgb(150, 207, 188);
+    background-color: var(--beige);
     border-radius: 20px;
 }
 #something {
     width: 33%;
     height: 100%;
-    background-color: rgb(10, 100, 70);
+    background-color: var(--beige);
     border-radius: 20px;
 }
 #today-pick {
-    width: 33%;
+    width: 34%;
     height: 100%;
-    background-color: rgb(138, 168, 158);
+    background-color: var(--beige);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,3 +115,9 @@ body::-webkit-scrollbar {
     
 }
 
+
+.blur {
+    z-index: 29;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}

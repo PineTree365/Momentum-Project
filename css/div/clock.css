@@ -1,8 +1,12 @@
-#clock {
+.clock {
+    z-index: 98;
     width: 350px;
     height: 100px;
     border: solid 2px black;
     font-size: 90px;
+    background-color: var(--3brown);
+    border-radius: 20px;
+    font-weight: 600;
 }
 
 @keyframes leftmargin {

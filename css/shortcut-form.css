@@ -1,0 +1,12 @@
+.add-shortCut_form {
+    z-index: 30;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 100px;
+    background-color: beige;
+    border-radius: 20px;
+}
