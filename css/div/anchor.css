@@ -1,0 +1,18 @@
+#anchor-zone {
+    width: 80%;
+    height: 40%;
+    background-color: antiquewhite;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#anchor ::-webkit-scrollbar {
+    background-color: rgb(250, 95, 95);
+}
+
+#anchor-zone a {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    background-color: blue;
+}

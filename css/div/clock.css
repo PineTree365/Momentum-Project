@@ -1,0 +1,17 @@
+#clock {
+    width: 350px;
+    height: 100px;
+    border: solid 2px black;
+    font-size: 90px;
+}
+
+@keyframes leftmargin {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 100px; 
+    }
+}
+
+/*.move {animation: leftmargin 1s linear infinite alternate;}*/
