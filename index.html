@@ -12,6 +12,7 @@
 </head>
 <body>
     <div class="" id="wholeContent">
+        <div id="weather"><span></span><span></span></div>
         <div id="top">
             <div id="time">
                 <h2 class="clock"></h2>
@@ -24,19 +25,18 @@
                         <a class="anchor-stlyle" href="https://nomadcoders.co/">
                             <span>노마드코더</span>  
                         </a>
+                    </div>
+                    <div class="anchor-zone_section">
+                        <a class="anchor-stlyle" href="https://www.notion.so/ko-kr/product">
+                            <span>노션</span>  
+                        </a>
+                    </div>
+                    <div class="anchor-zone_section">
+                        <a class="anchor-stlyle" href="https://www.youtube.com/">
+                            <span>유튜브</span>  
+                        </a>
                         <button class="ellipsis hidden"><i class="fa-solid fa-ellipsis-vertical "></i></button>
                     </div>
-                    <a class="anchor-stlyle" href="https://nomadcoders.co/">노션</a>
-                    <a class="anchor-stlyle" href="https://nomadcoders.co/">넷플릭스</a>
-                    <a class="anchor-stlyle" href="https://nomadcoders.co/">
-                        노마드코더
-                    </a>
-                    <a class="anchor-stlyle" href="https://nomadcoders.co/">노션</a>
-                    <a class="anchor-stlyle" href="https://nomadcoders.co/">넷플릭스</a><a class="anchor-stlyle" href="https://nomadcoders.co/">
-                        노마드코더
-                    </a>
-                    <a class="anchor-stlyle" href="https://nomadcoders.co/">노션</a>
-                    <a class="anchor-stlyle" href="https://nomadcoders.co/">넷플릭스</a>
                     <form class="anchor-zone_create">
                         <button><i class="fa-solid fa-circle-plus fa-2x"></i></button>
                     </form>
@@ -56,11 +56,14 @@
             </div>
         </div>
     </div>
-    <div>
+    <div id="add-shortCut_screen">
         <form class="add-shortCut_form invisivle">
-            <input type="text">
             <div>
-                <input type="text">
+                <input placeholder="url" required id="add-shortCut_form__url" type="text" />
+                <button class="add-shortCut_form__delete"><i class="fa-solid fa-circle-plus"></i></button>
+            </div>
+            <div>
+                <input placeholder="name" required id="add-shortCut_form__name" type="text" />
                 <button><i class="fa-solid fa-circle-plus"></i></button>
             </div>
         </form>
@@ -77,5 +80,6 @@
     <script src="today-pick.js"></script>
     <script src="first-page.js"></script>
     <script src="time.js"></script>
+    <script src="weather.js"></script>
 </body>
 </html>

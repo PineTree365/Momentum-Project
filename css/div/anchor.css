@@ -40,7 +40,14 @@
     
     border: 2px solid #f4eee0d7;
 }
-#anchor-zone form:hover,
+#anchor-zone form {
+    opacity: 0.04;
+}
+#anchor-zone form:hover {
+    opacity: 0.5;
+    border: 2px solid #f4eee0d7;
+}
+
 #anchor-zone a:hover {
     opacity: 1;
     border: 2px solid #f4eee0;
