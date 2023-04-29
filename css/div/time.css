@@ -3,10 +3,17 @@
     width: 350px;
     height: 100px;
     border: solid 2px black;
-    font-size: 90px;
+    font-size: 85px;
     background-color: var(--3brown);
     border-radius: 20px;
     font-weight: 600;
+}
+
+#time h4 {
+    font-size: xx-large;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
 }
 
 @keyframes leftmargin {

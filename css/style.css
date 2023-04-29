@@ -1,6 +1,6 @@
 @import "reset.css";
 @import "variables.css";
-@import "div/clock.css";
+@import "div/time.css";
 @import "div/anchor.css";
 @import "first-page.css";
 @import "shortcut-form.css";
@@ -77,6 +77,11 @@ body::-webkit-scrollbar {
     height: 100%;
     background-color: var(--beige);
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 #fun-click {
     width: 17%;
