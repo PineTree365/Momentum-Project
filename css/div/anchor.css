@@ -56,7 +56,7 @@
 #anchor-zone button {
     background-color: var(--1brown);
     border: none;
-    color: color: var(--beige);;
+    color: var(--beige);;
 }
 .anchor-zone_section {
     position: relative;

@@ -1,0 +1,97 @@
+.BallArea {
+    width: 50px;
+    height: 50px;
+}
+.BallStyle0,
+.BallStyle1,
+.BallStyle2,
+.BallStyle3 {
+    width:50px;
+    height : 50px;
+    border-radius: 50%;
+}
+.BallStyle0 {
+    background-color : var(--beige);
+    animation: angleMove4 2s ease-in-out infinite;  
+}
+.BallStyle1 { 
+    background-color : var(--1brown);
+    animation: angleMove2 2s ease-in-out infinite;
+}
+.BallStyle2 {
+    background-color : var(--2brown);
+    animation: angleMove1 2s ease-in-out infinite;
+}
+.BallStyle3 {
+    background-color : var(--3brown);
+    animation: angleMove3 2s ease-in-out infinite;
+}
+
+
+
+@keyframes moveDown {
+    0%{
+        margin-top: 0;
+    }
+    50%{
+        margin-top: 50px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+@keyframes coinFlip {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-5px) rotateY(180deg);
+    }
+    100%{
+        transform: none;
+    }
+}
+@keyframes angleMove1 {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-10px) translateX(-10px);
+    }
+    100%{
+        transform: none;
+    }
+}
+@keyframes angleMove2 {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-10px) translateX(10px);
+    }
+    100%{
+        transform: none;
+    }
+}
+@keyframes angleMove3 {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(10px) translateX(-10px);
+    }
+    100%{
+        transform: none;
+    }
+}
+@keyframes angleMove4 {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(10px) translateX(10px);
+    }
+    100%{
+        transform: none;
+    }
+}

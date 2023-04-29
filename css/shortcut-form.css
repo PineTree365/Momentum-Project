@@ -36,9 +36,7 @@
 .add-shortCut_form input:first-child {
     margin-bottom: 5px;
 } 
-.add-shortCut_form input:last-child {
 
-}
 .add-shortCut_form input::placeholder {
     text-align: center;
 }
