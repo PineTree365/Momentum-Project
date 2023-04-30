@@ -1,19 +1,46 @@
 .clock {
-    z-index: 98;
-    width: 350px;
-    height: 100px;
+    width: 323px;
+    height: 80px;
     border: solid 2px black;
-    font-size: 85px;
-    background-color: var(--3brown);
-    border-radius: 20px;
-    font-weight: 600;
+    font-size: 83px;
+    background :linear-gradient(-30deg,var(--2brown),var(--3brown));
+    padding-bottom: 5px;
+    border-radius: 8px;
+    font-weight: 800;
+    position: absolute;
+    text-align: left;
+    left: 10px;
+    top: 10px;
+    box-shadow: 0px 0px 10px 1px;
 }
 
 #time h4 {
-    font-size: xx-large;
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
+    text-align: center;
+    font-size: 50px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 20px 5px;
+    position: absolute;
+    font-weight: bold;
+    background-color: var(--beige);
+    top: 180px;
+    opacity: 0.9;
+    border-radius: 25px;
+}
+
+#weather {
+    position: absolute;
+    right: 15px;
+    bottom: 260px;
+    font-size: 17px;
+    
+    
+}
+
+#weather span {
+    display: block;
+    margin-bottom: 10px;
 }
 
 @keyframes leftmargin {

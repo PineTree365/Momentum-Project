@@ -36,15 +36,6 @@
     animation: rotateBackground 0.8s linear infinite;
 }
 
-#first-page span.clock {
-    position: absolute;
-    left: 30px;
-    bottom: 60px;
-    background-color: antiquewhite;
-    color: black;
-    z-index: 96;
-}
-
 #login-form {
     display: flex;
     flex-direction: column;
