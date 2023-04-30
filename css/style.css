@@ -34,8 +34,6 @@ body::-webkit-scrollbar {
 }
 
 #top,#bottom,#wholeContent,#time,#fun-click,#calender,#something,#today-pick {
-    border: 1px red dashed;
-    animation: showing 2s forwards;
     box-sizing: border-box;
 
 }
