@@ -36,7 +36,7 @@ body::-webkit-scrollbar {
 #top,#bottom,#wholeContent,#time,#fun-click,#calender,#something,#today-pick {
     
     box-sizing: border-box;
-
+    animation: showing 2s forwards;
 }
 
 
