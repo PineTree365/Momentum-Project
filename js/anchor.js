@@ -169,34 +169,7 @@ if (localStorage.getItem("shortcutLIst") !== null) {
                                             const name = parsedShortcutList[order][1];
                                             order = order + 1;
                                             paintShortcut(url,name);
-                                            if(order <= parsedShortcutList.length) {
-                                                const url = parsedShortcutList[order][0];
-                                                const name = parsedShortcutList[order][1];
-                                                order = order + 1;
-                                                paintShortcut(url,name);
-                                            }  if (order <= parsedShortcutList.length) {
-                                                const url = parsedShortcutList[order][0];
-                                                const name = parsedShortcutList[order][1];
-                                                order = order + 1;
-                                                paintShortcut(url,name);
-                                                if(order <= parsedShortcutList.length) {
-                                                    const url = parsedShortcutList[order][0];
-                                                    const name = parsedShortcutList[order][1];
-                                                    order = order + 1;
-                                                    paintShortcut(url,name);
-                                                }  if (order <= parsedShortcutList.length) {
-                                                    const url = parsedShortcutList[order][0];
-                                                    const name = parsedShortcutList[order][1];
-                                                    order = order + 1;
-                                                    paintShortcut(url,name);
-                                                    if(order <= parsedShortcutList.length) {
-                                                        const url = parsedShortcutList[order][0];
-                                                        const name = parsedShortcutList[order][1];
-                                                        order = order + 1;
-                                                        paintShortcut(url,name);
-                                                    }
-                                            }
-                                        }
+                                              
                                     }
                                 }
                             }

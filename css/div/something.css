@@ -1,0 +1,71 @@
+#something {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#somethingMust {
+    width: 33%;
+    height: 100%;
+    background-color: rgb(74, 142, 173);
+    border: 1px red dashed;
+    position: absolute;
+    z-index: 4;
+    left: 33%;
+}
+#somethingFun {
+    width: 33%;
+    height: 100%;
+    background-color: rgb(61, 27, 180);
+    border: 1px red dashed;
+    position: absolute;
+    z-index: 3;
+    left: 33%;
+}
+#somethingWrite {
+    width: 33%;
+    height: 100%;
+    background-color: rgb(27, 180, 35);
+    border: 1px red dashed;
+    position: absolute;
+    z-index: 2;
+    left: 33%;
+}
+.something-family input {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+#something input {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    top: 17px;
+    right: 15px;
+}
+
+#something input:hover {
+    animation: inputReveal 2s ease-in-out forwards;
+}
+#something input:active {
+    opacity: 1;
+}
+
+@keyframes inputReveal {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#something_goal {
+}
+
+#something_goal span {
+    font-size: xx-large;
+}
