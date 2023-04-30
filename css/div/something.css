@@ -34,6 +34,9 @@
     height: 20px;
     top: 17px;
     right: 15px;
+    background-color: var(--beige);
+    border: 2px solid var(--2brown);
+    border-radius: 20px;
 }
 .something-family ul {
     width: 20%;
@@ -58,4 +61,7 @@
     height: 20px;
     top: 17px;
     right: 15px;
+    background-color: var(--beige);
+    border: 2px solid var(--2brown);
+    border-radius: 20px;
 }
