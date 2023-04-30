@@ -47,12 +47,20 @@
         <div id="bottom">
             <div id="calender">
                 <div id="calender-top">
-                    <div class="calender_div_1"><span>나의 목표</span></div>
-                    <div class="calender_div"><span>오늘 할 것</span></div>
+                    <form class="calender_div">
+                        <button id="calender-goalBtn"><span>나의 목표</span></button>
+                    </form>
+                    <form class="calender_div">
+                        <button id="calender-mustBtn"><span>오늘 할 것</span></button>
+                    </form>
                 </div>
                 <div id="calender-bottom">
-                    <div class="calender_div"><span>오늘 놀 것</span></div>
-                    <div class="calender_div"><span>오늘의 끄적임</span></div>
+                    <form class="calender_div">
+                        <button id="calender-funBtn"><span>오늘 놀 것</span></button>
+                    </form>
+                    <form class="calender_div">
+                        <button id="calender-writeBtn"><span>오늘의 끄적임</span></button>
+                    </form>
                 </div>
             </div>
             <form id="something" class="">
@@ -60,21 +68,24 @@
                 <div id="something_goal">
                 </div>
             </form>
-            <form id="somethingMust"class="something-family">
-                <div>
+            <div id="somethingMust" class="invisible">
+                <form class="something-family something-family_twin">
                     <input type="text">
-                </div>
-            </form>
-            <form id="somethingFun"class="something-family">
-                <div>
+                </form>
+                <ul></ul>
+            </div>
+            <div id="somethingFun" class="invisible">
+                <form class="something-family something-family_twin">
                     <input type="text">
-                </div>
-            </form>
-            <form id="somethingWrite"class="something-family">
-                <div>
+                </form>
+                <ul></ul>
+            </div>
+            <div id="somethingWrite" class="invisible">
+                <form class="something-family">
                     <input type="text">
-                </div>
-            </form>
+                </form>
+                <ul></ul>
+            </div>
             <div id="today-pick">
                 <div id="today-pick_img">
 
@@ -111,5 +122,6 @@
     <script src="js/calender.js"></script>
     <script src="js/something.js"></script>
     <script src="js/something-must.js"></script>
+    <script src="js/somethingFun.js"></script>
 </body>
 </html>
